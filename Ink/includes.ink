@@ -14,22 +14,22 @@ VAR legendary_ability = ()
 
 === function AdjustKiEnergy(value)
 
-{codewords has opiate:
-    ~ ki_energy -= 2
-}
-
-{legendary_ability has value:
-    ~ return
-}
-
-{mastery_ability has value:
-    ~ ki_energy -= 1
-    ~ return
-}
-
-{speciality_ability has value:
-    ~ ki_energy -= 2
-}
+    {codewords has opiate:
+        ~ ki_energy -= 2
+    }
+    
+    {legendary_ability has value:
+        ~ return
+    }
+    
+    {mastery_ability has value:
+        ~ ki_energy -= 1
+        ~ return
+    }
+    
+    {speciality_ability has value:
+        ~ ki_energy -= 2
+    }
 
 === function HasAbility(value)
     
@@ -76,21 +76,46 @@ VAR legendary_ability = ()
 
 {value:
     - sword:
-        >>>ICON_SWORD_MASTERY
+        #IMAGE: images/ability_sword_mastery.png
     - bow:
-        >>>ICON_BOW_MASTERY
+        #IMAGE: images/ability_bow_mastery.png
     - shamanism:
-        >>>ICON_SHAMANISM
+        #IMAGE: images/ability_shamanism.png
     - reflex:
-        >>>ICON_REFLEX
+        #IMAGE: images/ability_reflex.png
     - luck:
-        >>>ICON_LUCK
+        #IMAGE: images/ability_luck.png
     - charisma:
-        >>>ICON_CHARISMA
+        #IMAGE: images/ability_charisma.png
     - control:
-        >>>ICON_SELF_CONTROL
+        #IMAGE: images/ability_self-control.png
     - poison:
-        >>>ICON_POISON_IMMUNITY
+        #IMAGE: images/ability_poison_immunity.png
+}
+
+=== function PrintImg(value)
+
+{value:
+    - "stats":
+        #IMAGE: images/help_char_stats.png
+    - "codewords":
+        #IMAGE: images/help_code_words.png
+    - "hwrang":
+        #IMAGE: images/01_hwarang.png
+    - "old_gunn":
+        #IMAGE: images/02_old_gunn.png
+    - "village":
+        #IMAGE: images/03_wo_sul_village.png
+    - "sua_gwa_house":
+        #IMAGE: images/04_sua_gwa_house.pn
+    - "logo":
+        #IMAGE: images/05_marketplace.png
+    - "cemetery":
+        #IMAGE: images/06_cemetery.png
+    - "kumiho":
+        #IMAGE: images/07_kumiho.png
+    - "lake":
+        #IMAGE: images/08_lake.png
 }
 
 === function GetRankLabel(value)
@@ -110,7 +135,7 @@ VAR legendary_ability = ()
 
     {mind or endurance <= 0:
         
-        Hwarang's {mind == 0:mind|endurance} reached 0 – the adventure ends here.
+        <i><b>Hwarang's {mind == 0:mind|endurance} reached 0 – the adventure ends here.</b></i>
         
         -> the_end
     }
@@ -138,7 +163,7 @@ VAR legendary_ability = ()
         ~ codewords += value
     }
     
-    You gain the codeword {value}.
+    <i>You gain the codeword <b>{value}</b>.</i>
     
 ->->
 

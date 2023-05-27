@@ -260,3 +260,10 @@ body.dark {
 .dark #controls {
     background: black;
 }
+
+/* CUSTOM CSS */
+
+.choice span {
+    font-size: 15pt;
+    color: darkgrey;
+}

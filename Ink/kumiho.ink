@@ -1,5 +1,7 @@
 === kumiho ===
 #22
+    
+    {PrintImg("sua_gwa_house")}
 
     It was not difficult for the hwarang to find the house of the allegedly cursed maiden. It was big, by the village’s standards, and its owner was obviously wealthy. There were signs of neglect but Gee Soo could tell that until recently that house had been properly taken care of. It was as if the housekeeper had recently got ill or retired. The neighboring houses were smaller; their doors and window shutters were all locked, so talking to the neighbors was not an option, the hwarang noted. He approached the door and knocked. (If the hwarang is accompanied by a dog: The dog started barking angrily as he was walking towards the house. When it realized that he wanted to go in, it ran off.) A large man answered the door; he was in his fifties, with silver hair and beard.
     
@@ -294,6 +296,8 @@
     With all his willpower, Kim Gee Soo managed to come out of the daze and clear his mind. He felt soft lips on his own and a tender tongue exploring his mouth. The sensation was incredible. He realized this was Sa Gwa. He felt her passing something small and round from her mouth to his. With horror, Gee Soo suddenly realized that her tongue was unnaturally long.
     
     He clenched his teeth and bit off the tip of Sa Gwa’s tongue, the round object still in his mouth. The maiden gave out a shriek which was certainly not human and instinctively pulled away. He grabbed her by the collar of her nightgown and tore it. The young woman fell on the ground, half-naked. He spat out the bloody piece of tongue and the round object, which turned out to be a glowing green pearl. In that instant, Sa Gwa's body became blurry as she was screaming with pain, holding her mouth with bloodstained hands. Seconds later, on the floor before him was a huge white fox with multiple tails wiggling in agony. Its yellow eyes were glaring at him, full of spite and pain.
+    
+    {PrintImg("kumiho")} 
     
     Gee Soo realized with terror that this was a kumiho. Kumihos were demon foxes whose purpose was to suck out the vital power of the men they seduced. It dawned on the hwarang that this must have been what killed the young men. Gee Soo noticed that this kumiho only had six tails instead of nine which meant that it still hadn't gained its full strength.
     

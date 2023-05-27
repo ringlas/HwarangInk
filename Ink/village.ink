@@ -16,6 +16,7 @@
 
 === village ===
 #12
+    {PrintImg("village")}
 
     Kim Gee Soo arrived at the village in the afternoon. A thick mist had shrouded the rooftops of the village houses. The air was heavy with the scent of green tea and so humid that it seemed to stick to the hwarang’s hands and face. He looked at the twin hills standing like silent guardians. They were evenly terraced and sown with the aromatic bushy plants that were the villagers’ main source of income. The view of the green terraces disappearing in the milky veil of mist brought up a strange sense of mysticism and timelessness. It was as if the invisible hilltops marked the end of the world and the beginning of the infinite universe. The landscape was beautiful, yet foreboding. It was the point where the known met the unknown. The hwarang was struck by the view, seized by contrasting feelings of peace and uneasiness.
     

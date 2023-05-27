@@ -1,5 +1,7 @@
 === character_creation ===
     
+    # CLEAR
+    
     <h1>Character Creation</h1>
 
     Despite the kwangde’s plethora of praises for hwarang Kim Gee Soo’s abilities, his stories were for the most part exaggerated. In this game, the hwarang can have three skills. On the next page you can choose Gee Soo's three abilities and the level at which he will master them. The hwarang can have one Legendary-level skill, one Master-level skill and one Specialist-level skill. The other skills will not be available to him.
@@ -9,10 +11,10 @@
     ~ temp skill = sword
     
     - (skill_selection)
+     
+    Select a {legendary-level|master-level|specialist-level} skill. 
     
-    Select a {legendary-level|master-level|specialist-level} skill.
-    
-    + {not HasAbility(sword)} [{GetAbilityIcon(sword)} Sword Mastery.]
+    + {not HasAbility(sword)} [Sword Mastery.]
         
         ~ skill = sword
     
@@ -30,7 +32,7 @@
     
     + {not HasAbility(shamanism)} [{GetAbilityIcon(shamanism)} Shamanism.]
         
-        ~ skill = shaman
+        ~ skill = shamanism
     
     + {not HasAbility(charisma)} [{GetAbilityIcon(charisma)} Charisma.]
         
@@ -45,6 +47,8 @@
         ~ skill = poison
     
     - (loop)
+    
+        You have chosen <b>{GetAbilityLabel(skill)}</b>. {GetAbilityIcon(skill)}
         
         {loop:
             - 1:
@@ -61,9 +65,9 @@
     
     <h1>Character Statistics</h1>
     
-    >>>ICON_STATS
+    {PrintImg("stats")}
     
-    Having these abilities comes at a cost. Whenever the hwarang uses them, this may take some of his life force or Ki-energy.
+    Having these abilities comes at a cost. Whenever the hwarang uses them, this may take some of his life force or Ki-energy. 
     
     The use of a Legendary-level skill does not cost Ki-energy points. The use of a Master-level skill costs 1 Ki-energy point, and a Specialist-level skill costs 2 Ki-energy points.
     
@@ -75,9 +79,9 @@
 
     <h1>Code Words</h1>
     
-    >>>ICON_CODEWORDS
+    {PrintImg("codewords")}
     
-    This section is where you collect code words throughout the course of the adventure. The game will do this for you automatically, but be careful, as they are an important part of the game.
+    This section is where you collect code words throughout the course of the adventure. The game will do this for you automatically, but be careful, as they are an important part of the game. 
     
     + [Tap here to create your character and calculate your character stats bonus!]
     
@@ -88,8 +92,8 @@
     ~ temp bonus = 0
     
     {legendary_ability has poison or legendary_ability has shaman:
-    
-        \+1 point of Knowledge!
+        
+        -> AlterStats(knowledge, "Knowledge", 1) ->
         
         ~ knowledge++
         
@@ -97,8 +101,8 @@
     }
     
     {legendary_ability has bow or legendary_ability has sword or legendary_ability has control:
-    
-        \+1 point in Mind!
+        
+        -> AlterStats(mind, "Mind", 1) ->
         
         ~ mind++
         
@@ -107,7 +111,7 @@
     
     {bonus == 0:
         
-        No bonus points!
+        <b><i>No bonus points!</i></b>
     }
     
     + [Begin your adventure!]

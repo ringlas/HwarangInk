@@ -1,6 +1,8 @@
 === lake ===
 #66
-
+    
+    {PrintImg("lake")}
+    
     By the time the hwarang reached the lake, thick mist had fallen, shrouding everything in its soft embrace. He stood at the shore of the calm lake and watched the water and the mist blend in the distance. The eerie view made him feel like he was in a dream and his vision blurred from the whiteness. All noises were muffled and the air – thick and humid. Through the dense wall of fog, Gee Soo saw someone walking on the far end of the lake. He headed to the blurry figure but suddenly halted. The dim silhouette was not on the other shore but appeared to be floating over the water and the white puffs of mist in the middle of the lake. The figure was moving towards Gee Soo and he saw it was a man in torn, drenched clothes. As he was approaching, Gee Soo felt shivers down his spine at the sight of the man’s face – deformed by bite marks and rotting, his skin grey like a dead fish. There was a hideous hole in his stomach, his insides missing. As the man was floating about a foot over the water, Gee Soo realized he could see right through him.
     
     The ghostly man extended his hands as if to grab the hwarang.
@@ -62,6 +64,8 @@
 
 === graveyard ===
 #67
+   
+    {PrintImg("cemetery")} 
     
     Gee Soo reached the graveyard. It was very quiet, as if nothing dared to disturb the silent sleep of the dead. The place was shrouded in thick mist and it looked like a timeless sanctuary detached from the predicaments of life. He walked carefully among the last resting places of the dead. Gee Soo asked himself what he was doing there. Could the dead answer his questions? Engulfed in thoughts, he reached a fresh grave. The name "Ji Won Hyang" was engraved on the tombstone. The man was buried yesterday. Gee Soo heard a strange noise from behind the tombstone. Hand on his sword, he took a careful peek. A sudden clap of wings startled him and a crow flew away, dropping something on the grave. The curious hwarang leaned down and saw it was a bracelet.
     

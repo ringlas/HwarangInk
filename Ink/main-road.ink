@@ -299,7 +299,7 @@
         
         ++ [Move on.]
     
-    + [<{HasAbility(luck)}>If you don’t have that code word, but the hwarang has the ability Luck and you want him to use it – go to 18.]
+    + [<{HasAbility(luck)}>If you don’t have that code word, but the hwarang has the ability Luck and you want him to use it.]
         
         #18
         

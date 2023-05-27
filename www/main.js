@@ -157,10 +157,21 @@
         // Create HTML choices from ink choices
         story.currentChoices.forEach(function(choice) {
 
+            // Adding functionality for disabled choices if the choice text contains <false> text
+            var tmp_html = "";
+
+            if(choice.text.includes("<false>")) {
+                tmp_html = `<span>${choice.text}</span>`;
+            }
+            else {
+                tmp_html = `<a href='#'>${choice.text}</a>`;
+            }
+
             // Create paragraph with anchor element
             var choiceParagraphElement = document.createElement('p');
-            choiceParagraphElement.classList.add("choice");
-            choiceParagraphElement.innerHTML = `<a href='#'>${choice.text}</a>`
+            choiceParagraphElement.classList.add("choice");            
+            choiceParagraphElement.innerHTML = tmp_html;       
+
             storyContainer.appendChild(choiceParagraphElement);
 
             // Fade choice in after a short delay
@@ -169,6 +180,11 @@
 
             // Click on choice
             var choiceAnchorEl = choiceParagraphElement.querySelectorAll("a")[0];
+
+            if(choiceAnchorEl === undefined) {
+                return;
+            }
+
             choiceAnchorEl.addEventListener("click", function(event) {
 
                 // Don't follow <a> link
@@ -188,10 +204,13 @@
             });
         });
 
-        // Extend height to fit
-        // We do this manually so that removing elements and creating new ones doesn't
-        // cause the height (and therefore scroll) to jump backwards temporarily.
-        storyContainer.style.height = contentBottomEdgeY()+"px";
+        // Wrapping in a timer function to allow images to load before calculating & scrolling to the bottom of the page 
+        setTimeout(() => { 
+            // Extend height to fit 
+            // We do this manually so that removing elements and creating new ones doesn't 
+            // cause the height (and therefore scroll) to jump backwards temporarily. 
+            storyContainer.style.height = contentBottomEdgeY()+"px"; if( !firstTime ) scrollDown(previousBottomEdge); 
+        }, 100);
 
         if( !firstTime )
             scrollDown(previousBottomEdge);

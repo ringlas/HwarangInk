@@ -145,6 +145,8 @@
 = demon_encounter
 #34
     
+    {PrintImg("old_gunn")}
+    
     When he came out of the cave, the rain had stopped and the mist had become so dense he could not see more than a few feet ahead. Deathly silence hung over the area; even the birds were quiet as if they were waiting for some invisible danger to pass. He headed back to the village when he heard footsteps and muttering ahead in the mist. Gee Soo hid behind a large rock with a good view of the direction where the steps were coming from. One could not be too careful. Soon an old hunchbacked woman emerged limping from the mist, muttering something under her breath.
     
     + [<{codewords has dog}>If the hwarang has a dog.]
