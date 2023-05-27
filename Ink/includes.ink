@@ -96,6 +96,8 @@ VAR legendary_ability = ()
 === function PrintImg(value)
 
 {value:
+    - "logo":
+        #IMAGE: images/logo.png
     - "stats":
         #IMAGE: images/help_char_stats.png
     - "codewords":
@@ -107,7 +109,7 @@ VAR legendary_ability = ()
     - "village":
         #IMAGE: images/03_wo_sul_village.png
     - "sua_gwa_house":
-        #IMAGE: images/04_sua_gwa_house.pn
+        #IMAGE: images/04_sua_gwa_house.png
     - "marketplace":
         #IMAGE: images/05_marketplace.png
     - "cemetery":

@@ -263,7 +263,14 @@ body.dark {
 
 /* CUSTOM CSS */
 
-.choice span {
+.locked a {
     font-size: 15pt;
     color: darkgrey;
+    cursor: not-allowed;
+}
+
+.locked a:hover {
+    font-size: 15pt;
+    color: darkgrey;
+    cursor: not-allowed;
 }

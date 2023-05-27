@@ -1,5 +1,6 @@
 # theme: light
 # author: Leidrin Sweever
+# BACKGROUND: images/bg.jpg
 
 INCLUDE includes.ink
 INCLUDE character-creation.ink
@@ -15,7 +16,8 @@ INCLUDE outskirts.ink
 -> intro
 
 === intro ===
-#Intro
+
+    {PrintImg("logo")}
     
     The market day in So Wul was at its peak. The enormous marketplace was crowded with people from all corners of the Goryeo Kingdom. The merchants were yelling and praising their goods, repeating the same selling phrases like mantras. With deep bows, they invited upper-class passers-by to feel their smooth soft linen or try on an exquisite jewel. 
     
@@ -109,6 +111,8 @@ INCLUDE outskirts.ink
     "But if you enjoyed this story – show me your gratitude and tomorrow I'll be back to tell you how the old kumiho took the shape of the Queen of Silla, killed the king and brought the country to shambles. And how the brave hwarang Kim Gee Soo, risked his life to do his most heroic deed and freed the country from the demon with the help of the wise monk Pak Yon Wol."
     
     The kwangde was showered with applause and coins. He was going to make a fortune here!
+    
+    {PrintImg("marketplace")}
     
     -> the_end
 

@@ -67,7 +67,7 @@
         
         -> broken_bones
     
-    + [<<{HasAbility(luck)}>If Gee Soo has the ability Luck and you want him to use it.]
+    + [<{HasAbility(luck)}>If Gee Soo has the ability Luck and you want him to use it.]
     
         ~ AdjustKiEnergy(luck)
         

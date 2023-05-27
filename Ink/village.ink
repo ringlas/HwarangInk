@@ -8,7 +8,7 @@
     
         -> village.outskirts
     
-    + [<{knowledge >= 6}>{&To head to the cursed maiden’s house|Go straight to the cursed maiden's house and finish this once and for all} (only if the hwarang has 6 or more Knowledge points).]
+    + [<{knowledge >= 4}>{&To head to the cursed maiden’s house|Go straight to the cursed maiden's house and finish this once and for all} (only if the hwarang has 4 or more Knowledge points).]
     
         -> kumiho
 
@@ -52,7 +52,7 @@
             
             -> outskirts
         
-        ++ [<{knowledge >= 6}>Or he could head to the cursed maiden’s house (only if he has 6 or more Knowledge points).]
+        ++ [<{knowledge >= 4}>Or he could head to the cursed maiden’s house (only if he has 4 or more Knowledge points).]
         
             -> kumiho
         
@@ -78,11 +78,11 @@
             
             -> ask_around
             
-        ++ [<{knowledge >= 6}>Or he could head to the cursed maiden’s house (only if he has 6 or more Knowledge points).]
+        ++ [<{knowledge >= 4}>Or he could head to the cursed maiden’s house (only if he has 4 or more Knowledge points).]
             
             -> kumiho
       
-    + [<{knowledge >= 6}>Head straight to the cursed maiden’s house (only if he has 6 or more Knowledge points).]
+    + [<{knowledge >= 4}>Head straight to the cursed maiden’s house (only if he has 4 or more Knowledge points).]
         
         -> kumiho
     
