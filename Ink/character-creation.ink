@@ -1,7 +1,5 @@
 === character_creation ===
     
-    # CLEAR
-    
     <h1>Character Creation</h1>
 
     Despite the kwangde’s plethora of praises for hwarang Kim Gee Soo’s abilities, his stories were for the most part exaggerated. In this game, the hwarang can have three skills. On the next page you can choose Gee Soo's three abilities and the level at which he will master them. The hwarang can have one Legendary-level skill, one Master-level skill and one Specialist-level skill. The other skills will not be available to him.

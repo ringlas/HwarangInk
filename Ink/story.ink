@@ -1,6 +1,5 @@
 # theme: light
 # author: Leidrin Sweever
-# BACKGROUND: images/bg.jpg
 
 INCLUDE includes.ink
 INCLUDE character-creation.ink
@@ -17,8 +16,6 @@ INCLUDE outskirts.ink
 
 === intro ===
 #Intro
-    
-    {PrintImg("marketplace")}
     
     The market day in So Wul was at its peak. The enormous marketplace was crowded with people from all corners of the Goryeo Kingdom. The merchants were yelling and praising their goods, repeating the same selling phrases like mantras. With deep bows, they invited upper-class passers-by to feel their smooth soft linen or try on an exquisite jewel. 
     
@@ -69,6 +66,20 @@ INCLUDE outskirts.ink
     
     # CLASS: end
     THE END
+    
+    <h2>Credits:</h2>
+    
+    <i>Author:</i>
+    Leidrin Sweever
+    
+    <i>Art:</i>
+    Chywon Kim
+    Andrei Pervukhin
+    Björn Wirtz
+    Andrée Wallin
+    Tamer Karatas
+    
+    <i>Made with Ink by Inkle</i>
 
 -> END
 
