@@ -1,6 +1,8 @@
 === main_road ===
 #1
-
+    
+    {PrintImg("hwarang")}
+    
     Kim Gee Soo followed the road with an even pace. It was summer – the season where the weather could quickly turn from scorching sun to heavy showers, and the nature around him was lush and green. The air was muggy from the last rain and heavy with the fragrance of flowers and the odor of rotting vegetation.
     
     The road was leading to the village of Yo Soo where the cursed maiden lived. The hwarang sighed and once again replayed in his mind the conversation with Magistrate Kang who had sent him on this fool’s errand.

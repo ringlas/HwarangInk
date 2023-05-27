@@ -108,7 +108,7 @@ VAR legendary_ability = ()
         #IMAGE: images/03_wo_sul_village.png
     - "sua_gwa_house":
         #IMAGE: images/04_sua_gwa_house.pn
-    - "logo":
+    - "marketplace":
         #IMAGE: images/05_marketplace.png
     - "cemetery":
         #IMAGE: images/06_cemetery.png

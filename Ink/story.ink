@@ -18,6 +18,8 @@ INCLUDE outskirts.ink
 === intro ===
 #Intro
     
+    {PrintImg("marketplace")}
+    
     The market day in So Wul was at its peak. The enormous marketplace was crowded with people from all corners of the Goryeo Kingdom. The merchants were yelling and praising their goods, repeating the same selling phrases like mantras. With deep bows, they invited upper-class passers-by to feel their smooth soft linen or try on an exquisite jewel. 
     
     The crowd was as diverse as the swarm of smells wafting through the marketplace. The wind carried whiffs of fish mixed with the hot-and-sour scent of different sorts of kimchi. The smell of aromatic herbs, candied fruit and fragrance oils merged with the stench of horse and human sweat, manure and rotting garbage. This overwhelming bouquet could make anyone wish for a heavily perfumed handkerchief or at least a benevolent breeze. The cacophony of sounds, screams, clanking, clattering, babbling of water, rattling of carriages, wailing of aeolipiles, screeching of mechanical tools and the monotonous murmur of hundreds of voices all formed a constant deep rumble that could easily induce an avalanche down the slopes of the Azure Mountain that loomed over the city.
