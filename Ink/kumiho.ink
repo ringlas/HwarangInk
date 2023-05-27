@@ -101,7 +101,7 @@
         
             #45
             
-            -- (wine_safe) The wine was good but had a strange aftertaste. Gee Soo noticed that she did not drink from her cup. Sa Gwa kept staring at him as if waiting for something to happen and he sat on the bed.
+            --- (wine_safe) The wine was good but had a strange aftertaste. Gee Soo noticed that she did not drink from her cup. Sa Gwa kept staring at him as if waiting for something to happen and he sat on the bed.
 
             "Are you weary, brave hwarang?"
             
