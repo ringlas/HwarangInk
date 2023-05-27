@@ -9,7 +9,7 @@
     
     + [<{HasAbility(shamanism)}>If the hwarang has the skill Shamanism and you want him to use it.]
     
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
     
     + [If he doesn’t, he can attack the creature.]
     
@@ -71,7 +71,7 @@
     
     + [<{HasAbility(shamanism)}>If the hwarang has the skill Shamanism and you want him to use it.]
     
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         #30
     

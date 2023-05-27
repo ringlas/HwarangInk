@@ -79,7 +79,7 @@
     
     * [<{HasAbility(control)}>If the hwarang has the ability Self-control and you want him to use it.]
         
-        ~ AdjustKiEnergy(control)
+        -> AdjustKiEnergy(control) ->
         
         -> question
     

@@ -93,7 +93,7 @@
         
         ++ [<{HasAbility(poison)}>If the hwarang has the ability Immunity to Poison and you want him to use it.]
             
-            ~ AdjustKiEnergy(poison)
+            -> AdjustKiEnergy(poison) ->
             
             -> wine_safe
         
@@ -217,7 +217,7 @@
     
     + [<{HasAbility(control)}>If the hwarang has the ability of Self-control and you want him to use it.]
         
-        ~ AdjustKiEnergy(control)
+        -> AdjustKiEnergy(control) ->
         
         -> rejected
     
@@ -353,7 +353,7 @@
     
     + [<{HasAbility(reflex)}>If the hwarang has the ability Reflex and he has the Ki-energy points to use it.]
         
-        ~ AdjustKiEnergy(reflex)
+        -> AdjustKiEnergy(reflex) ->
     
     + [Otherwise, test your luck with between this choice...]
         
@@ -395,13 +395,13 @@
     
     + [<{HasAbility(sword)}>If the hwarang has the ability Sword Mastery.]
         
-        ~ AdjustKiEnergy(sword)
+        -> AdjustKiEnergy(sword) ->
         
         -> fighting_skills
     
     + [<{HasAbility(bow)}>If Gee Soo has Bow Mastery.]
         
-        ~ AdjustKiEnergy(bow)
+        -> AdjustKiEnergy(bow) ->
         
         #78
             
@@ -413,9 +413,9 @@
     
     + [<{HasAbility(luck) and HasAbility(reflex)}>If he has Luck and Reflex.]
         
-        ~ AdjustKiEnergy(luck)
+        -> AdjustKiEnergy(luck) ->
         
-        ~ AdjustKiEnergy(reflex)
+        -> AdjustKiEnergy(reflex) ->
         
         #81
         
@@ -501,19 +501,19 @@
     
     + [<{HasAbility(sword)}>If you don't have these code words, but the hwarang has Sword Mastery.]
         
-        ~ AdjustKiEnergy(sword)
+        -> AdjustKiEnergy(sword) ->
         
         -> wake_up
     
     + [<{HasAbility(bow)}>Or Bow Mastery.]
         
-        ~ AdjustKiEnergy(bow)
+        -> AdjustKiEnergy(bow) ->
         
         -> wake_up
     
     + [<{HasAbility(shamanism)}>Or Shamanism.]
     
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         -> wake_up
     
@@ -525,19 +525,19 @@
             
             ~ has_two_out_of_three++
             
-            ~ AdjustKiEnergy(luck)
+            -> AdjustKiEnergy(luck) ->
         }
         
         {HasAbility(reflex):
             
             ~ has_two_out_of_three++
             
-            ~ AdjustKiEnergy(reflex)
+            -> AdjustKiEnergy(reflex) ->
         }
         
         {HasAbility(control) and has_two_out_of_three < 2:
             
-            ~ AdjustKiEnergy(control)
+            -> AdjustKiEnergy(control) ->
         }
     
         -- (wake_up)
@@ -601,7 +601,7 @@
     
     + [<{HasAbility(reflex)}>If you don't have that code word, but the hwarang has the ability Reflex and the Ki-energy points to use it.]
         
-        ~ AdjustKiEnergy(reflex)
+        -> AdjustKiEnergy(reflex) ->
         
         -> wake_up_ii
         
@@ -613,26 +613,26 @@
             
             ~ has_two_out_of_four++
             
-            ~ AdjustKiEnergy(luck)
+            -> AdjustKiEnergy(luck) ->
         }
         
         {HasAbility(shamanism):
             
             ~ has_two_out_of_four++
             
-            ~ AdjustKiEnergy(shamanism)
+            -> AdjustKiEnergy(shamanism) ->
         }
         
         {HasAbility(sword):
             
             ~ has_two_out_of_four++
             
-            ~ AdjustKiEnergy(sword)
+            -> AdjustKiEnergy(sword) ->
         }
         
         {HasAbility(control) and has_two_out_of_four < 2:
             
-            ~ AdjustKiEnergy(control)
+            -> AdjustKiEnergy(control) ->
         }
         
         -- (wake_up_ii)
@@ -698,7 +698,7 @@
     
     + [<{HasAbility(control)}>If you don't have that code word, but the hwarang has the ability Self-control and the Ki-energy points to use it.]
         
-        ~ AdjustKiEnergy(control)
+        -> AdjustKiEnergy(control) ->
         
         -> wake_up_iii
     
@@ -710,26 +710,26 @@
             
             ~ has_two_out_of_four++
             
-            ~ AdjustKiEnergy(luck)
+            -> AdjustKiEnergy(luck) ->
         }
         
         {HasAbility(shamanism):
             
             ~ has_two_out_of_four++
             
-            ~ AdjustKiEnergy(shamanism)
+            -> AdjustKiEnergy(shamanism) ->
         }
         
         {HasAbility(reflex) and has_two_out_of_four < 2:
             
             ~ has_two_out_of_four++
             
-            ~ AdjustKiEnergy(reflex)
+            -> AdjustKiEnergy(reflex) ->
         }
         
         {HasAbility(charisma) and has_two_out_of_four < 2:
             
-            ~ AdjustKiEnergy(charisma)
+            -> AdjustKiEnergy(charisma) ->
         }
         
         -- (wake_up_iii)

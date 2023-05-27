@@ -12,24 +12,33 @@ VAR mastery_ability = ()
 VAR speciality_ability = ()
 VAR legendary_ability = ()
 
-=== function AdjustKiEnergy(value)
+=== AdjustKiEnergy(value)
 
+    ~ temp cost = 0
+    
     {codewords has opiate:
-        ~ ki_energy -= 2
+        ~ cost -= 2
     }
     
     {legendary_ability has value:
-        ~ return
+        ->->
     }
     
     {mastery_ability has value:
-        ~ ki_energy -= 1
-        ~ return
+        ~ cost -= 1
     }
     
     {speciality_ability has value:
-        ~ ki_energy -= 2
+        ~ cost -= 2
     }
+    
+    {cost == 0:
+        ->->
+    }
+    
+    -> AlterStats(ki_energy, "Ki-energy", cost) ->
+
+->->
 
 === function HasAbility(value)
     
@@ -150,11 +159,11 @@ VAR legendary_ability = ()
     
     {value >= 0:
         
-        <i>Gee Soo gains <b>{value} {label}</b> point{value > 1:s}.</i>
+        <i>Gee Soo gains <b>{value} {label}</b> point{value > 1 and value < -1:s}.</i>
     
     - else:
     
-        <i>Gee Soo loses <b>{-1 * value} {label}</b> point{value > 1:s}.</i>
+        <i>Gee Soo loses <b>{-1 * value} {label}</b> point{value > 1 and value < -1:s}.</i>
     }
     
 ->->

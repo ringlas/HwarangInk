@@ -69,13 +69,13 @@
     
     + [<{mastery_ability has shamanism or legendary_ability has shamanism}>If the hwarang has the ability Shamanism (at least at Master level).]
         
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         -> teach_spell
         
     + [<{mastery_ability has charisma or legendary_ability has charisma}>Or if the hwarang has the ability Charisma (at least at Master level).]
         
-        ~ AdjustKiEnergy(charisma)
+        -> AdjustKiEnergy(charisma) ->
     
         -> teach_spell
     

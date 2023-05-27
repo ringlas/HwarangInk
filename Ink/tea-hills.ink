@@ -17,7 +17,7 @@
     
     + [<{HasAbility(luck)}>If the hwarang has Luck and you want him to use it.]
         
-        ~ AdjustKiEnergy(luck)
+        -> AdjustKiEnergy(luck) ->
         
         While he was approaching the foot of one of the tea hills, something suddenly caught his attention. A remote sense of something evil drew him to the right hillside. Something was wrong with the landscape. He could not tell what it was exactly but decided to follow his instincts. When he reached the spot that was attracting him, he found out it was a well-hidden entrance to a small cave. The opening was just wide enough for him to crawl inside. Eager to quench his curiosity and hoping it was not a tiger's den, he went in.
         
@@ -25,7 +25,7 @@
     
     + [<{HasAbility(shamanism)}>If the hwarang has Shamanism and you want him to use it.]
         
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         While he was approaching the foot of one of the tea hills, something suddenly caught his attention. A remote sense of something evil drew him to the right hillside. Something was wrong with the landscape. He could not tell what it was exactly but decided to follow his instincts. When he reached the spot that was attracting him, he found out it was a well-hidden entrance to a small cave. The opening was just wide enough for him to crawl inside. Eager to quench his curiosity and hoping it was not a tiger's den, he went in.
         
@@ -63,13 +63,13 @@
     
     + [<{HasAbility(shamanism)}>If the hwarang has the ability Shamanism and you want him to use it.]
         
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         -> broken_bones
     
     + [<{HasAbility(luck)}>If Gee Soo has the ability Luck and you want him to use it.]
     
-        ~ AdjustKiEnergy(luck)
+        -> AdjustKiEnergy(luck) ->
         
         #31
         
@@ -183,7 +183,7 @@
     
     + [<{HasAbility(control)}>If the hwarang has the ability Self-control and you want him to use it.]
     
-        ~ AdjustKiEnergy(control)
+        -> AdjustKiEnergy(control) ->
     
     + [Otherwise.]
     

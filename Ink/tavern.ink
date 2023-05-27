@@ -111,7 +111,7 @@
     
     * [<{HasAbility(charisma)}>If the hwarang has the ability Charisma and you want to him use it.]
     
-        ~ AdjustKiEnergy(charisma)
+        -> AdjustKiEnergy(charisma) ->
         
         -> question
 -> DONE
@@ -235,13 +235,13 @@
     
     * [<{HasAbility(sword)}>If the hwarang has Sword Mastery and you want him to use it.]
         
-        ~ AdjustKiEnergy(sword)
+        -> AdjustKiEnergy(sword) ->
         
         -> question
     
     * [<{HasAbility(bow)}>If the hwarang has Bow Mastery and you want him to use it.]
         
-        ~ AdjustKiEnergy(bow)
+        -> AdjustKiEnergy(bow) ->
         
         -> question
     

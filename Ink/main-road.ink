@@ -63,7 +63,7 @@
         
         #5
         
-        ~ AdjustKiEnergy(sword)
+        -> AdjustKiEnergy(sword) ->
         
         At that moment, the hwarang lunged forward, grabbed his sword, rolled over and hit the bandit in the stomach with the sword’s handle. With a mighty swing of his arm, Gee Soo threw his weapon in the air. The thieves looked up frozen in surprise, watching the flying sword. At that moment the hwarang became a whirlwind of movements, as he knocked the bows out of the bowmen’s hands with his scabbard. He rolled back, stretched his arm theatrically and caught the falling sword. With a lightning fast movement, he pressed his blade against the bandit’s throat, trimming a few inches off his beard. Despite the dirt covering his face, the ill-fated thief was visibly white with fear.
     
@@ -71,7 +71,7 @@
     
         #6
         
-        ~ AdjustKiEnergy(bow)
+        -> AdjustKiEnergy(bow) ->
         
         Fast as lighting, Gee Soo took out an arrow from his quiver, got on one knee and loosed it just as one of the archer was making his shot. The hwarang’s arrow split the enemy’s in two and knocked the thief hat right off his head. Gee Soo rolled forward and shot the other archer’s hat off too. The hwarang stood up, readied a third arrow, and held it just a few inches from the paralyzed leader’s face.
         
@@ -81,7 +81,7 @@
         
         #7
         
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         Before anyone knew what was happening, Gee Soo cast a simple spell. Within seconds, the moisture evaporating from the wet ground in a ten-yard radius turned into a mist so thick that the attackers could not see their hands in front of their faces. The spell held only for a few seconds but it was enough time for the hwarang. He disarmed the archers, grabbed his sword from the shocked leader’s hands, pulled it out of the scabbard and when the mist cleared, Gee Soo’s blade was pressed against the thief’s throat.
         
@@ -140,7 +140,7 @@
         
         #10
         
-        ~ AdjustKiEnergy(luck)
+        -> AdjustKiEnergy(luck) ->
         
         The bandit took out a small pouch made of thick leather.
 
@@ -219,7 +219,7 @@
         
         #13
         
-        ~ AdjustKiEnergy(sword)
+        -> AdjustKiEnergy(sword) ->
         
         Gee Soo rushed towards the closest bandit, who had raised his cudgel to bludgeon the mouthy monk. The hwarang kicked him behind the knee and the thief fell with a scream of surprise. With two strikes of his sword, he knocked the monk’s belongings off the puzzled thugs’ hands and with two more, he disarmed the others.
     
@@ -227,7 +227,7 @@
     
         #14
         
-        ~ AdjustKiEnergy(bow)
+        -> AdjustKiEnergy(bow) ->
         
         Gee Soo took aim and made a shot at the closest bandit, who had just raised his cudgel to bludgeon the mouthy monk. The hwarang hit him behind the knee and the thief fell with a surprised scream. With two more shots, he knocked the monk’s belongings off the puzzled thugs’ hands.
     
@@ -235,7 +235,7 @@
         
         #15
         
-        ~ AdjustKiEnergy(shamanism)
+        -> AdjustKiEnergy(shamanism) ->
         
         Gee Soo cast a simple spell – he conjured up mist around the bandits. He could only hold it for a few seconds but that was enough time for him.
     
@@ -305,7 +305,7 @@
         
         #18
         
-        ~ AdjustKiEnergy(luck)
+        -> AdjustKiEnergy(luck) ->
         
         "The scroll that the scoundrels tried to steal from me," said the monk reluctantly, "is very valuable for it contains several basic tractates on the esoteric. I give it to you because I know you will to appreciate its worth!"
 
