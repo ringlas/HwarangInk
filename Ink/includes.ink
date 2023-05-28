@@ -144,9 +144,9 @@ VAR legendary_ability = ()
 
 === CheckDead() ===
 
-    {mind or endurance <= 0:
+    {mind <= 0 or endurance <= 0:
         
-        <i><b>Hwarang's {mind == 0:mind|endurance} reached 0 – the adventure ends here.</b></i>
+        <i><b>Hwarang's {mind <= 0:mind|endurance} reached 0 – the adventure ends here.</b></i>
         
         -> the_end
     }
@@ -159,11 +159,11 @@ VAR legendary_ability = ()
     
     {value >= 0:
         
-        <i>Gee Soo gains <b>{value} {label}</b> point{value > 1 and value < -1:s}.</i>
+        <i>Gee Soo gains <b>{value} {label}</b> point{value > 1 or value < -1:s}.</i>
     
     - else:
     
-        <i>Gee Soo loses <b>{-1 * value} {label}</b> point{value > 1 and value < -1:s}.</i>
+        <i>Gee Soo loses <b>{-1 * value} {label}</b> point{value > 1 or value < -1:s}.</i>
     }
     
 ->->
@@ -171,19 +171,21 @@ VAR legendary_ability = ()
 === AddCodeword(value) ===
 
     {codewords hasnt value:
+        
         ~ codewords += value
+        
+        <i>You gain the codeword <b>{value}</b>.</i>
     }
-    
-    <i>You gain the codeword <b>{value}</b>.</i>
     
 ->->
 
 === RemoveCodeword(value) ===
 
     {codewords has value:
+        
         ~ codewords -= value
+        
+        <i>You lose the codeword <b>{value}</b>.</i>
     }
-    
-    <i>You lose the codeword <b>{value}</b>.</i>
     
 ->->
