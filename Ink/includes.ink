@@ -64,22 +64,24 @@ VAR legendary_ability = ()
 
 {value:
     - sword:
-        "Sword Mastery"
+        ~ return "Sword Mastery"
     - bow:
-        "Bow Mastery"
+        ~ return "Bow Mastery"
     - shamanism:
-        "Shamanism"
+        ~ return "Shamanism"
     - reflex:
-        "Reflex"
+        ~ return "Reflex"
     - luck:
-        "Luck"
+        ~ return "Luck"
     - charisma:
-        "Charisma"
+        ~ return "Charisma"
     - control:
-        "Self-control"
+        ~ return "Self-control"
     - poison:
-        "Poison Immunity"
+        ~ return "Poison Immunity"
 }
+
+~ return "N/A"
 
 === function GetAbilityIcon(value)
 
@@ -102,6 +104,29 @@ VAR legendary_ability = ()
         #IMAGE: images/ability_poison_immunity.png
 }
 
+=== function GetAbilityIconName(value)
+
+{value:
+    - sword:
+        ~ return "ability_sword_mastery"
+    - bow:
+        ~ return "ability_bow_mastery"
+    - shamanism:
+        ~ return "ability_shamanism"
+    - reflex:
+        ~ return "ability_reflex"
+    - luck:
+        ~ return "ability_luck"
+    - charisma:
+        ~ return "ability_charisma"
+    - control:
+        ~ return "ability_self-control"
+    - poison:
+        ~ return "ability_poison_immunity"
+}
+
+~ return "N/A"
+
 === function PrintImg(value)
 
 {value:
@@ -111,7 +136,7 @@ VAR legendary_ability = ()
         #IMAGE: images/help_char_stats.png
     - "codewords":
         #IMAGE: images/help_code_words.png
-    - "hwrang":
+    - "hwarang":
         #IMAGE: images/01_hwarang.png
     - "old_gunn":
         #IMAGE: images/02_old_gunn.png
@@ -127,6 +152,8 @@ VAR legendary_ability = ()
         #IMAGE: images/07_kumiho.png
     - "lake":
         #IMAGE: images/08_lake.png
+    - "end":
+        #IMAGE: images/the_end.png
 }
 
 === function GetRankLabel(value)

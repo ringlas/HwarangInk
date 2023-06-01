@@ -16,31 +16,31 @@
         
         ~ skill = sword
     
-    + {not HasAbility(bow)} [{GetAbilityIcon(bow)} Bow Mastery.]
+    + {not HasAbility(bow)} [Bow Mastery.]
         
         ~ skill = bow
     
-    + {not HasAbility(reflex)} [{GetAbilityIcon(reflex)} Reflex.]
+    + {not HasAbility(reflex)} [Reflex.]
         
         ~ skill = reflex
     
-    + {not HasAbility(luck)} [{GetAbilityIcon(luck)} Luck.]
+    + {not HasAbility(luck)} [Luck.]
         
         ~ skill = luck
     
-    + {not HasAbility(shamanism)} [{GetAbilityIcon(shamanism)} Shamanism.]
+    + {not HasAbility(shamanism)} [Shamanism.]
         
         ~ skill = shamanism
     
-    + {not HasAbility(charisma)} [{GetAbilityIcon(charisma)} Charisma.]
+    + {not HasAbility(charisma)} [Charisma.]
         
         ~ skill = charisma
     
-    + {not HasAbility(control)} [{GetAbilityIcon(control)} Self-control.]
+    + {not HasAbility(control)} [Self-control.]
         
         ~ skill = control
     
-    + {not HasAbility(poison)} [{GetAbilityIcon(poison)} Poison Immunity.]
+    + {not HasAbility(poison)} [Poison Immunity.]
         
         ~ skill = poison
     

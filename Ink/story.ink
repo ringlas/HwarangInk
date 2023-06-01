@@ -12,6 +12,7 @@ INCLUDE mayor.ink
 INCLUDE shaman.ink
 INCLUDE tea-hills.ink
 INCLUDE outskirts.ink
+INCLUDE help.ink
 
 -> intro
 
@@ -66,23 +67,8 @@ INCLUDE outskirts.ink
 
 === the_end ===
     
-    # CLASS: end
-    THE END
+    {PrintImg("end")}
     
-    <h2>Credits:</h2>
-    
-    <i>Author:</i>
-    Leidrin Sweever
-    
-    <i>Art:</i>
-    Chywon Kim
-    Andrei Pervukhin
-    Björn Wirtz
-    Andrée Wallin
-    Tamer Karatas
-    
-    <i>Made with Ink by Inkle</i>
-
 -> END
 
 === game_over ==
@@ -98,6 +84,12 @@ INCLUDE outskirts.ink
     
     Early in the morning, the hwarang began his trip back to the capital to report to the magistrate about what had happened, and that unfortunately his son would have to marry someone else.
     
+    + [Continue.]
+    
+    -
+    
+    {PrintImg("marketplace")}
+    
     "And so, the brave hwarang Kim Gee Soo saved Yo Soo from the kumiho and returned to the capital as a hero. The villagers entombed the dead kumiho in the cave where its mother had hidden Sa Gwa’s body and from that day on the village was also known as Fox Den."
     
     Some people in the crowd gasped in surprise, as this was the name of an actual village that was just a five days’ trip from So Wul.
@@ -111,8 +103,6 @@ INCLUDE outskirts.ink
     "But if you enjoyed this story – show me your gratitude and tomorrow I'll be back to tell you how the old kumiho took the shape of the Queen of Silla, killed the king and brought the country to shambles. And how the brave hwarang Kim Gee Soo, risked his life to do his most heroic deed and freed the country from the demon with the help of the wise monk Pak Yon Wol."
     
     The kwangde was showered with applause and coins. He was going to make a fortune here!
-    
-    {PrintImg("marketplace")}
     
     -> the_end
 
