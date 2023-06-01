@@ -1,6 +1,6 @@
 === kumiho ===
 #22
-    
+
     {PrintImg("sua_gwa_house")}
 
     It was not difficult for the hwarang to find the house of the allegedly cursed maiden. It was big, by the village’s standards, and its owner was obviously wealthy. There were signs of neglect but Gee Soo could tell that until recently that house had been properly taken care of. It was as if the housekeeper had recently got ill or retired. The neighboring houses were smaller; their doors and window shutters were all locked, so talking to the neighbors was not an option, the hwarang noted. He approached the door and knocked. (If the hwarang is accompanied by a dog: The dog started barking angrily as he was walking towards the house. When it realized that he wanted to go in, it ran off.) A large man answered the door; he was in his fifties, with silver hair and beard.
@@ -141,7 +141,7 @@
         
             <i>Due to the opiate's properties, the hwarang has to lose 2 Ki-energy points every time he uses any of his skills, including his Legendary and Mastery skills.</i>
             
-            -> AlterStats(knowledge, "Endurance", -1) ->
+            -> AlterStats(endurance, "Endurance", -1) ->
             
             +++ [Continue.]
                 
